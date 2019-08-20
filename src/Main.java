@@ -8,7 +8,8 @@ public class Main {
         SortAlgorithm sortAlgorithm = null;
 
         //sortAlgorithm = new BubbleSort();
-        sortAlgorithm = new SelectionSort();
+        //sortAlgorithm = new SelectionSort();
+        sortAlgorithm = new InsertionSort();
 
         sortAlgorithm.sort(array);
 
